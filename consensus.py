@@ -21,7 +21,7 @@ ALGO_METADATA = {
         'qvar':'reach/Q',
         'time':'time'
     },
-    'neobam':{
+    'busboi':{
         'qvar':'q/q',
         'time':'time_str'
     },
