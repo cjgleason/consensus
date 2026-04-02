@@ -1,0 +1,8 @@
+Bootstrap: docker
+From: ghcr.io/swot-confluence/consensus:latest
+
+%files
+    consensus.py /app/consensus.py
+
+%runscript
+    exec /app/env/bin/python3 /app/consensus.py "$@"
